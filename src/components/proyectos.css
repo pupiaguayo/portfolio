@@ -1,0 +1,27 @@
+.container-proyectos {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container-proyectos h2 {
+  text-align: center;
+  width: 100%;
+  font-size: 2.2em;
+}
+.proyectos-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+@media (max-width: 995px) {
+  .proyectos-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,64 @@
+.conten-tarjeta {
+  margin-bottom: 20px;
+}
+.tarjeta {
+  border: 1px solid #001829;
+  height: auto;
+  width: 19.6em;
+  border-radius: 0.625em;
+  box-shadow: 5px 4px 4px rgb(138, 138, 138);
+  cursor: pointer;
+  color: #343a40;
+  margin: 0.9375em 0.8em;
+}
+.tarjeta:hover {
+  box-shadow: 10px 5px 5px rgb(73, 73, 73);
+}
+.tarjeta img {
+  border: 0.1px solid #001829;
+  width: 100%;
+  height: 9.375em;
+  object-fit: cover;
+  border-radius: 0.625em;
+}
+.tarjeta .descripcion-card h1 {
+  margin-top: 0.2em;
+  font-size: 1.375em;
+  text-transform: uppercase;
+  letter-spacing: 0.0625em;
+}
+.tarjeta .descripcion-card p {
+  font-size: 0.6em;
+  font-weight: 700;
+}
+.button-url {
+  text-align: center;
+}
+.conten-tarjeta button {
+  border-radius: 10px;
+  font-size: 0.875em;
+  font-weight: 600;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  box-shadow: 1px 2px 3px rgb(138, 138, 138);
+  outline: none;
+  border: 1.5px solid #001829;
+}
+.conten-tarjeta button:hover {
+  font-size: 0.9em;
+  background-color: #001829;
+  color: white;
+  box-shadow: inset -3.5em 0 0 0 var(--hover), inset 3.5em 0 0 0 var(--hover);
+}
+
+/*MEDIA QUERIES 995PX*/
+@media (max-width: 995px) {
+  .tarjeta {
+    margin: 0.8em auto 1em auto;
+    width: 23.5em;
+  }
+  .conten-tarjetao button {
+    background-color: #001829;
+    color: white;
+  }
+}

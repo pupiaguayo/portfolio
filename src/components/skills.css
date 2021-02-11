@@ -1,0 +1,24 @@
+.skills {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  line-height: 1em;
+}
+.skills h2 {
+  text-align: center;
+  width: 100%;
+  line-height: 0.6em;
+  font-size: 1.9em;
+}
+.sliderSkills {
+  display: flex;
+  justify-content: center;
+  margin: 2em 1em 0 1em;
+}
+.sliderSkills .iconSkills {
+  font-size: 2.2em;
+  margin: 0 1.25rem;
+  color: #001829;
+}

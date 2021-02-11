@@ -1,0 +1,58 @@
+.contacto {
+  margin-top: 3.125em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contacto h2 {
+  text-align: center;
+  width: 100%;
+  line-height: 0.6em;
+  font-size: 1.9em;
+}
+.elementosContacto {
+  margin: 2em 1em 0 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.elementosContacto .iconosContacto a {
+  font-size: 1.9em;
+  margin: 0 1.25rem;
+  color: #001829;
+}
+.elementosContacto .iconosContacto a:hover {
+  font-size: 2em;
+  margin: 0 1.25rem;
+  color: #00406d;
+}
+.elementosContacto .buttonContacto {
+  width: 100%;
+}
+.contacto button {
+  margin: 0.8em 1em 0 1em;
+  border-radius: 10px;
+  font-size: 0.875em;
+  font-weight: 600;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  box-shadow: 1px 2px 3px rgb(138, 138, 138);
+  outline: none;
+  border: 1.5px solid #001829;
+}
+.contacto button:hover {
+  font-size: 0.9em;
+  background-color: #001829;
+  color: white;
+  box-shadow: inset -3.5em 0 0 0 var(--hover), inset 3.5em 0 0 0 var(--hover);
+}
+
+@media (max-width: 995px) {
+  .contacto button {
+    background-color: #001829;
+    color: white;
+  }
+}
